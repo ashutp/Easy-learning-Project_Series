@@ -1,0 +1,38 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+body {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Standard syntax */
+  /* background-color: rgb(27, 27, 27); */
+}
+
+form {
+  /* height: 170px; */
+  width: 300px;
+  border: 1px solid rgb(56, 55, 55);
+  margin: auto;
+  text-align: center;
+  margin-top: 100px;
+  padding: 40px;
+  box-shadow: -5px 5px 1px 1px rgb(194, 191, 191);
+}
+
+/* #btn{
+  height: 35px;
+} */
+
+#img {
+  height: 30px;
+  width: 30px;
+  filter: brightness(0) saturate(100%) invert(20%) sepia(61%) saturate(7500%)
+  hue-rotate(354deg) brightness(102%) contrast(100%);
+  /* margin-top:10px ; */
+  /* border: 1px solid black; */
+}
