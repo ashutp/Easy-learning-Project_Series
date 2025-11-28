@@ -13,37 +13,61 @@
         <div class="upper_head">
           <!-- this section is for heading pupose -->
           <div class="box">
-            <img src="tick.svg" alt="image"  />
+            <img src="tick.svg" alt="image" />
           </div>
           <span>MY To-Do-List</span>
         </div>
         <form class="upper_head" id="inp">
-          <input type="text" placeholder="Add new Task" />
+          <input type="text" placeholder="Add new Task" maxlength="18" />
           <button type="submit">Add</button>
         </form>
       </header>
 
       <!-- navigation section start on here -->
-      <section id="nav" >
+      <section>
         <!-- this section is for  navigation purpse  -->
         <ul id="nav">
-          <a href=""><li><img src="all.svg" alt="image"  class="image"/> ALL</li></a>
-          <a href=""><li><img src="active.svg" alt="image"  class="image"/> Active</li></a>
-          <a href=""><li><img src="completed.svg" alt="image"  class="image"/> Completed</li></a>
-          <a href=""><li><img src="exp.svg" alt="image" class="image" /> Expired</li></a>
+          <li><img src="all.svg" alt="image" class="image" /> ALL</li>
+          <li><img src="active.svg" alt="image" class="image" /> Active</li>
+
+          <li>
+            <img src="completed.svg" alt="image" class="image" /> Completed
+          </li>
+
+          <li><img src="exp.svg" alt="image" class="image" /> Expired</li>
         </ul>
       </section>
+
       <main>
         <!-- MAIN content body starts here -->
         <div id="content">
           <div><img src="circle.svg" alt="image" class="image2" /></div>
           <div id="info">courses</div>
           <div class="time">Time</div>
-          <div class="box"><img src="del.svg" alt="image" class="image2" /></div>
-        </div>   
+          <div class="box">
+            <img src="del.svg" alt="image" class="image2" />
+          </div>
+        </div>
       </main>
 
-      <footer>hii</footer>
+      <footer>
+        <div class="pv">
+          <p>Series: Easy-learning-project_series</p>
+          <p>
+            Email:<a href="mailto:ashukaithal09@gmail.com"
+              >ashukaithal@09gmail.com</a
+            >
+          </p>
+          <span class="pv"> &copy; privacy&policy</span>
+        </div>
+        <div id="social_media">
+          <div>
+            <a href=""><img src="x.svg" alt="image" class="image2" /></a>
+            <a href=""><img src="linkdin.svg" alt="image" class="image2" /></a>
+            <a href=""><img src="github.svg" alt="image" class="image2" /></a>
+          </div>
+        </div>
+      </footer>
     </div>
   </body>
 </html>
